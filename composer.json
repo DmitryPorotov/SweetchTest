@@ -1,0 +1,20 @@
+{
+    "name": "dmitry/sweetch_test",
+    "description": "sweetch home test",
+    "autoload": {
+        "psr-4": {
+            "Dmitry\\SweetchTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Porotov",
+            "email": "dmitryporotov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.5",
+        "monolog/monolog": "^2.9"
+    }
+}
